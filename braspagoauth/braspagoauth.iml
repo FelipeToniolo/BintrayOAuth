@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":braspagoauth" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":app" />
+        <option name="GRADLE_PROJECT_PATH" value=":braspagoauth" />
         <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.6.2" />
         <option name="LAST_KNOWN_AGP_VERSION" value="3.6.2" />
       </configuration>
@@ -22,6 +22,7 @@
         <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
         <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
@@ -31,10 +32,10 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
-          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbe13490a0aa51544de98c04fe200ebb/jetified-kotlin-android-extensions-runtime-1.3.61.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/329183ed31d6dbcff769d09fcb82964a/jetified-kotlin-stdlib-jdk7-1.3.61.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/abf12b3193da16642fb93760f8912a70/jetified-core-ktx-1.3.0-alpha02-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/8690a02deef7b2d27e8b410aee5bfd74/jetified-kotlin-stdlib-1.3.61.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/2cabb262acad9dd89575b1b3f403777b/jetified-kotlin-stdlib-common-1.3.61.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/add6e6b4e424be6541f8409ff5808fa5/jetified-annotations-13.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/a41a525ec8358606283b240b3c19fcd1/appcompat-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/42311ce0fecb40e67e48a62f906ed65c/fragment-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/bb2135312161c304e4d87471fd3ebd83/jetified-appcompat-resources-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/a7f83aa329feb4086a6f63a514c264b1/drawerlayout-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/532ae611e618db7a9c9a2dacf425aca6/viewpager-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/c48e9b3767d0dc3e65b3a1aad8bdf699/loader-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/3c6188fbbfe689537e0a3307425ae870/jetified-activity-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/4844ba89910fbee2c15b9975d3ce649f/vectordrawable-animated-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/792a3ca3e5c44221a28997de57fe040e/vectordrawable-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/3fa270aaeb12ab8f92109b8b7fb852c0/customview-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/033505196b8ed0914c7fade252eabfb8/core-1.3.0-alpha02-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/53b0d5cc6d283ceacea2b9b7af31d363/cursoradapter-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/7abf1eade25664fd46576fc7212c7809/versionedparcelable-1.1.0-api.jar:/Users/felipe/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/df7a6b787d38f48c0ba82e9cf1db196a/lifecycle-runtime-2.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/dff9f6947bcc17d4438915376fe9d0aa/lifecycle-viewmodel-2.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/045eb20ec5dc5fe87b47589ff942e087/jetified-savedstate-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/7d7b73b49001d40cbcd4491998463ee1/lifecycle-livedata-2.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/7afa1e93f247d02a971c5497c84d5a03/lifecycle-livedata-core-2.0.0-api.jar:/Users/felipe/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0/c67e7807d9cd6c329b9d0218b2ec4e505dd340b7/lifecycle-common-2.1.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/19dfc3ebb5d93964449c8ca9f966442d/core-runtime-2.0.0-api.jar:/Users/felipe/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/be0ba161db98312b061fde2bd8cf0f71/interpolator-1.0.0-api.jar:/Users/felipe/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/51caa1b5499cdf85f0ef09f17e37bd26/constraintlayout-1.1.3-api.jar:/Users/felipe/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar:/Users/felipe/Library/Android/sdk/platforms/android-29/android.jar" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbe13490a0aa51544de98c04fe200ebb/jetified-kotlin-android-extensions-runtime-1.3.61.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/abf12b3193da16642fb93760f8912a70/jetified-core-ktx-1.3.0-alpha02-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/329183ed31d6dbcff769d09fcb82964a/jetified-kotlin-stdlib-jdk7-1.3.61.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/8690a02deef7b2d27e8b410aee5bfd74/jetified-kotlin-stdlib-1.3.61.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/2cabb262acad9dd89575b1b3f403777b/jetified-kotlin-stdlib-common-1.3.61.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/add6e6b4e424be6541f8409ff5808fa5/jetified-annotations-13.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/a41a525ec8358606283b240b3c19fcd1/appcompat-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/42311ce0fecb40e67e48a62f906ed65c/fragment-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/bb2135312161c304e4d87471fd3ebd83/jetified-appcompat-resources-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/a7f83aa329feb4086a6f63a514c264b1/drawerlayout-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/532ae611e618db7a9c9a2dacf425aca6/viewpager-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/c48e9b3767d0dc3e65b3a1aad8bdf699/loader-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/3c6188fbbfe689537e0a3307425ae870/jetified-activity-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/4844ba89910fbee2c15b9975d3ce649f/vectordrawable-animated-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/792a3ca3e5c44221a28997de57fe040e/vectordrawable-1.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/3fa270aaeb12ab8f92109b8b7fb852c0/customview-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/033505196b8ed0914c7fade252eabfb8/core-1.3.0-alpha02-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/53b0d5cc6d283ceacea2b9b7af31d363/cursoradapter-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/7abf1eade25664fd46576fc7212c7809/versionedparcelable-1.1.0-api.jar:/Users/felipe/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/df7a6b787d38f48c0ba82e9cf1db196a/lifecycle-runtime-2.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/dff9f6947bcc17d4438915376fe9d0aa/lifecycle-viewmodel-2.1.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/045eb20ec5dc5fe87b47589ff942e087/jetified-savedstate-1.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/7d7b73b49001d40cbcd4491998463ee1/lifecycle-livedata-2.0.0-api.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/7afa1e93f247d02a971c5497c84d5a03/lifecycle-livedata-core-2.0.0-api.jar:/Users/felipe/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0/c67e7807d9cd6c329b9d0218b2ec4e505dd340b7/lifecycle-common-2.1.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/19dfc3ebb5d93964449c8ca9f966442d/core-runtime-2.0.0-api.jar:/Users/felipe/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/be0ba161db98312b061fde2bd8cf0f71/interpolator-1.0.0-api.jar:/Users/felipe/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/dcf2c0a7269585a0440ca8e1bfcc4394/jetified-converter-gson-2.8.1.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/3a4457334440b48a4e735189b9a984ce/jetified-retrofit-2.8.1.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/bbf54002840c0e9674d3f4ab40026c2d/jetified-okhttp-3.14.7.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/fcbc60239bfed807ba835aecb563d9c3/jetified-okio-1.17.2.jar:/Users/felipe/.gradle/caches/transforms-2/files-2.1/9fd48db96e85c8015898d394c4a250b8/jetified-gson-2.8.5.jar:/Users/felipe/Library/Android/sdk/platforms/android-29/android.jar:/Users/felipe/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
-          <option name="moduleName" value="app_debug" />
+          <option name="moduleName" value="braspagoauth_debug" />
           <option name="languageVersion" value="1.3" />
           <option name="apiVersion" value="1.3" />
           <option name="pluginOptions">
@@ -64,14 +65,14 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/build/intermediates/javac/debug/classes" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/debug" type="java-resource" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debugAndroidTest/out" isTestSource="true" generated="true" />
@@ -149,7 +150,11 @@
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout-solver:1.1.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.8.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.8.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.14.7@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.17.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.5@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.core:core-ktx:1.3.0-alpha02@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
@@ -171,7 +176,5 @@
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout:1.1.3@aar" level="project" />
-    <orderEntry type="module" module-name="braspagoauth" />
   </component>
 </module>
