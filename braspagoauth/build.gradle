@@ -3,23 +3,25 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 ext {
-    bintrayRepo = "BintrayOAuth"
-    bintrayName = "braspagoauth"
+    bintrayRepo = 'BintrayOAuth' // bintray repo
+    bintrayName = 'braspagoauth' // bintray package
 
-    publishedGroupId = "br.ftoniolo"
-    libraryName = "braspagoauth"
-    artifact = "braspagoauth"
+    // This configuration will result in:
+    // implementation '<publishedGroupId>:<artifact>:<libraryVersion>'
+    publishedGroupId = 'br.ftoniolo'
+    libraryName = 'braspagoauth'
+    artifact = 'braspagoauth'
 
     libraryDescription = 'An android library.'
 
     siteUrl = 'https://github.com/FelipeToniolo/BintrayOAuth'
     gitUrl = 'https://github.com/FelipeToniolo/BintrayOAuth.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.2'
 
-    developerId = 'FelipeToniolo'
+    developerId = 'ftoniolo'
     developerName = 'Felipe Augusto Toniolo'
-    developerEmail = 'ftoniolo.aat@gmail.com'
+    developerEmail = 'ftoniolo@gmail.com'
     developerUrl = "https://github.com/FelipeToniolo"
 
     licenseName = 'The Apache Software License, Version 2.0'
